@@ -1,0 +1,28 @@
+#part1
+{
+  background-color: darkblue;
+}
+#leg1
+{
+  background-color: darkblue;
+}
+#part2
+{
+  background-color: purple;
+}
+#leg2
+{
+  background-color: purple;
+}
+#part3
+{
+  background-color: firebrick;
+}
+#leg3
+{
+  background-color: firebrick;
+}
+#backline
+{
+  display: block;
+}

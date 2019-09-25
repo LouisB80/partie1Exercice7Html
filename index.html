@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <title>Exercice 7</title>
+</head>
+<body>
+  <form class="" action="index.html" method="post">
+    <!-- 1 ère partie -->
+    <fieldset id="part1">
+      <legend id="leg1">Votre identité</legend>
+      <ol>
+        <li>
+          <label for="name">Nom :</label>
+          <input type="text" id="name" name="user_name" placeholder="Entrer votre Nom">
+        </li>
+        <li>
+          <label for="firstName">Prenom :</label>
+          <input type="text" id="firstName" name="user_firstName" placeholder="Entrer votre Prenom">
+        </li>
+        <li>
+          <label for="mail">Adresse mail :</label>
+          <input type="email" id="mail" name="user_mail" placeholder="Entrer votre adresse mail">
+        </li>
+      </ol>
+    </fieldset>
+    <!-- 2nd partie -->
+    <fieldset id="part2">
+      <legend id="leg2">Adresse de livraison</legend>
+      <ol>
+        <li>
+          <label for="Adress">Adresse :</label>
+          <textarea name="Adress" id="Adress"></textarea>
+        </li>
+        <li>
+          <label for="zipCode">Code postal :</label>
+          <input type="number" id="zipCode" name="user_zipCode" placeholder="Entrer votre code postal">
+        </li>
+        <li>
+          <label for="city">Ville :</label>
+          <input type="text" id="city" name="user_city" placeholder="Entrer votre ville">
+        </li>
+      </ol>
+    </fieldset>
+    <!-- 3éme partie -->
+    <fieldset id="part3">
+      <legend id="leg3">Information de réglement</legend>
+      <ol>
+        <li>
+          <p>Type de carte :</p>
+          <div>
+            <input id="VISA" type="radio" name="cardType" >
+            <label for="VISA">VISA</label>
+          </div>
+          <div id="backline">
+            <input id="Mastercard" type="radio" name="cardType">
+            <label for="Mastercard">Mastercard</label>
+          </div>
+        </li>
+        <li>
+          <label for="cardNumber">Numéro de carte :</label>
+          <input type="number" id="cardNumber" name="user_cardType" placeholder="Votre numéro de carte">
+        </li>
+        <li>
+          <label for="secureCode">Code de sécurité :</label>
+          <input type="password" name="password" id="secureCode">
+        </li>
+        <li>
+          <label for="owner">Nom du titulaire :</label>
+          <input type="text" id="owner" name="user_owner" placeholder="Entrer le nom du titulaire">
+        </li>
+      </ol>
+    </fieldset>
+    <input type="submit" name="send" value="J'achète !">
+  </form>
+</body>
+</html>
